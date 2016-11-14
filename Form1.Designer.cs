@@ -41,6 +41,7 @@
             this.LL_PCGW_link = new System.Windows.Forms.LinkLabel();
             this.L_FOV_VAL = new System.Windows.Forms.Label();
             this.L_FOVSTR = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,6 +111,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.linkLabel1);
             this.panel1.Controls.Add(this.LL_PCGW_link);
             this.panel1.Controls.Add(this.L_FOV_VAL);
@@ -121,9 +123,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.TB_DesiredFOV);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(12, 9);
+            this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(196, 150);
+            this.panel1.Size = new System.Drawing.Size(196, 266);
             this.panel1.TabIndex = 8;
             // 
             // linkLabel1
@@ -167,11 +169,19 @@
             this.L_FOVSTR.TabIndex = 8;
             this.L_FOVSTR.Text = "Written horizontal FOV:";
             // 
+            // label4
+            // 
+            this.label4.Location = new System.Drawing.Point(3, 141);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(183, 120);
+            this.label4.TabIndex = 14;
+            this.label4.Text = resources.GetString("label4.Text");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(224, 170);
+            this.ClientSize = new System.Drawing.Size(202, 270);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -198,6 +208,7 @@
         private System.Windows.Forms.LinkLabel LL_PCGW_link;
         private System.Windows.Forms.Label L_FOVSTR;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label4;
     }
 }
 
