@@ -17,7 +17,6 @@ namespace ChaserFOVTool
         static string _GamesExecutable = "Chaser.exe";
         static string _GamesExecutableBackup = "Chaser.exe.bak";
         static string PCGW_URL = "http://pcgamingwiki.com/";
-        static string donationURL = "https://www.gamingforgood.net/s/suicidemachine/widget";
 
         int width = 1280;
         int height = 720;
@@ -142,11 +141,6 @@ namespace ChaserFOVTool
         private void LL_PCGW_link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start(PCGW_URL);
-        }
-
-        private void DonateClick(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start(donationURL);
         }
 
         #endregion
